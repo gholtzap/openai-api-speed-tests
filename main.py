@@ -21,18 +21,11 @@ prompts = [
 ]
 
 list_max_tokens = [
-    1024,
-    512,
-    128,
-    32
+    1024,   512,    128,    32
 ]
 
 temperatures = [
-    0,
-    0.5,
-    1,
-    1.5,
-    2
+    0,  0.5,    1,  1.5,    2
 ]
 
 
@@ -74,7 +67,7 @@ for temperature in temperatures:
         total_elapsed_time = 0
         for prompt in prompts:
             start_time = time.time()
-            response = query(prompt, "text-curie-001", temperature, max_token)
+            response = query(prompt, "text-ada-001", temperature, max_token)
             elapsed_time = time.time() - start_time
             total_elapsed_time += elapsed_time
             print(f"prompt: {prompt}\n response: {response}\n")
