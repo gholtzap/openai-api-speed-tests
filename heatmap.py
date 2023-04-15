@@ -18,9 +18,9 @@ max_tokens = [32, 128, 512, 2048]
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5))
 
 # Create heatmaps
-c1 = ax1.imshow(ada_data, cmap='viridis', interpolation='nearest')
+c1 = ax1.imshow(ada_data, cmap='cividis', interpolation='nearest')
 ax1.set_title("Ada")
-c2 = ax2.imshow(curie_data, cmap='viridis', interpolation='nearest')
+c2 = ax2.imshow(curie_data, cmap='cividis', interpolation='nearest')
 ax2.set_title("Babbage")
 
 # Set x and y labels

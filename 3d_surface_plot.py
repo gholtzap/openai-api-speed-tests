@@ -27,7 +27,7 @@ fig = plt.figure(figsize=(12, 6))
 
 # Ada plot
 ax1 = fig.add_subplot(121, projection='3d')
-ax1.plot_surface(T, M, ada_data, cmap='viridis', alpha=0.8)
+ax1.plot_surface(T, M, ada_data, cmap='cividis', alpha=0.8)
 ax1.set_title("Ada")
 ax1.set_xlabel("Temperature")
 ax1.set_ylabel("Max tokens")
@@ -35,7 +35,7 @@ ax1.set_zlabel("Response time")
 
 # Babbage plot
 ax2 = fig.add_subplot(122, projection='3d')
-ax2.plot_surface(T, M, curie_data, cmap='viridis', alpha=0.8)
+ax2.plot_surface(T, M, curie_data, cmap='cividis', alpha=0.8)
 ax2.set_title("Babbage")
 ax2.set_xlabel("Temperature")
 ax2.set_ylabel("Max tokens")
