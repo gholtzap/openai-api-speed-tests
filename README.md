@@ -6,7 +6,7 @@ Hi! I decided to collect data to provide devs with information on what makes the
 ## Generate Maps:
 - call either heatmap.py or 3d_surface_plot.py to generate data.
 
-## 3d_surfac_plot example:
+## 3d_surface_plot example:
 ![](https://cdn.discordapp.com/attachments/624080688248782886/1096663817963982949/image.png)
 
 ## Heatmap example:
