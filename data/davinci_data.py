@@ -10,6 +10,7 @@ davinci_trial1 = np.array([
 
 trials = [davinci_trial1]
 
+
 def davinci_avg(trials):
     num_trials = len(trials)
     summed_trials = np.sum(trials, axis=0)

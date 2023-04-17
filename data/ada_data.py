@@ -14,7 +14,8 @@ ada_trial2 = np.array([
     [0.78,	0.68,	1.83,	1.83,	8.78]
 ])
 
-trials = [ada_trial1,ada_trial2]
+trials = [ada_trial1, ada_trial2]
+
 
 def ada_avg(trials):
     num_trials = len(trials)

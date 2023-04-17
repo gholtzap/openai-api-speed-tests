@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-from data.ada_data import averaged_ada_data 
+from data.ada_data import averaged_ada_data
 from data.curie_data import averaged_curie_data
 from data.babbage_data import averaged_babbage_data
 from data.davinci_data import averaged_davinci_data
@@ -34,7 +34,7 @@ ax4.set_title("Davinci")
 
 
 # Set x and y labels
-for ax in [ax1, ax2,ax3,ax4]:
+for ax in [ax1, ax2, ax3, ax4]:
     ax.set_xticks(np.arange(len(temperatures)))
     ax.set_yticks(np.arange(len(max_tokens)))
     ax.set_xticklabels(temperatures)
@@ -42,7 +42,7 @@ for ax in [ax1, ax2,ax3,ax4]:
 
     # Rotate x labels
     plt.setp(ax.get_xticklabels(), rotation=45, ha="right",
-            rotation_mode="anchor")
+             rotation_mode="anchor")
 
 # Add colorbars
 plt.colorbar(c1, ax=ax1)

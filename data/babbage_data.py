@@ -10,6 +10,7 @@ babbage_trial1 = np.array([
 
 trials = [babbage_trial1]
 
+
 def babbage_avg(trials):
     num_trials = len(trials)
     summed_trials = np.sum(trials, axis=0)

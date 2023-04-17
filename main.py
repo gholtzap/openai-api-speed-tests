@@ -54,7 +54,6 @@ engine_ids = {
     "curie": "text-curie-001",
     "gpt3.5turbo": "gpt-3.5-turbo"
 
-
 }
 
 output = []

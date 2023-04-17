@@ -10,6 +10,7 @@ curie_trial1 = np.array([
 
 trials = [curie_trial1]
 
+
 def curie_avg(trials):
     num_trials = len(trials)
     summed_trials = np.sum(trials, axis=0)
