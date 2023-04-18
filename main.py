@@ -66,7 +66,7 @@ for temperature in temperatures:
         total_elapsed_time = 0
         for prompt in prompts:
             start_time = time.time()
-            response = query(prompt, "text-ada-001", temperature, max_token)
+            response = query(prompt, "text-babbage-001", temperature, max_token)
             elapsed_time = time.time() - start_time
             total_elapsed_time += elapsed_time
             print(f"prompt: {prompt}\n response: {response}\n")
