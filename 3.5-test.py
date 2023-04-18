@@ -68,4 +68,4 @@ for i, timing in enumerate(response_timings):
 def average_time(timings):
     return sum(timings) / len(timings)
 
-print(average_time(response_timings))
+print("Average time: ",average_time(response_timings))
